@@ -1,0 +1,20 @@
+#Rbg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 1;
+}
+#Rbg2 {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -2;
+  object-fit: cover;
+  opacity: 1;
+}
