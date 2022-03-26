@@ -19,7 +19,7 @@ const Sidebar = () => {
         var s = document.querySelector(".side");
         var p = document.querySelector(".sidebar");
   
-        if(s.style.opacity==0){
+        if(s.style.opacity===0){
             s.style.opacity = 1
             p.style.display = "block"
         }else{
