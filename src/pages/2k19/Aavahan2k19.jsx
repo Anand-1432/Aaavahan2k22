@@ -20,7 +20,7 @@ const Aavahan2k19 = () => {
       <img src={bgmain} alt="" id='Rbg2' />
 
       <div className='MainDiv'>
-      <h2>Aavahan 2k19</h2>
+        <h2>Aavahan 2k19</h2>
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -51,7 +51,8 @@ const Aavahan2k19 = () => {
         name="Past Sponsors"
       />
 
-          <Footer/>
+
+      <Footer />
 
     </>
   )
