@@ -4,7 +4,7 @@ const EventCard = ({ sport, team1, team2, time }) => {
   return (
     <div className='event-card'>
       <div className='event-details'>
-        <h1>{sport}</h1>
+        <h2>{sport}</h2>
         <p>
           {team1} vs {team2}
         </p>

@@ -19,6 +19,20 @@
   opacity: 1;
 }
 
+.event-section{
+  width: 100%;
+
+}
+ .headings{
+  text-align: center;
+  margin: 50px;
+}
+.game{
+  display: grid;
+  place-content: center;
+  width: 50%;
+}
+
 .EventVideo{
   width: 40%;
   margin: 90px auto 50px auto;
