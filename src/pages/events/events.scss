@@ -18,19 +18,15 @@
   object-fit: cover;
   opacity: 1;
 }
-
-.event-section{
-  width: 100%;
-
-}
- .headings{
+.headings{
   text-align: center;
-  margin: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 .game{
   display: grid;
   place-content: center;
-  width: 50%;
+  margin-top: 30px;
 }
 
 .EventVideo{

@@ -9,7 +9,7 @@ import EventCard from '../../components/event-card/event-card';
 const EventPage = () => {
   return (
     <>
-      <div id='Events'></div>
+      <div id='Event'></div>
       <img src={img0} alt='' id='Rbg' />
       <img src={bgmain} alt='' id='Rbg2' />
       <div className='EventVideo'>
@@ -29,11 +29,11 @@ const EventPage = () => {
       </h1>
     <div className='event-section container-fluid'>
         <div className='row'>
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='Cricket' team1='CSE' team2='IT' time='2:00 pm' />
           </div>
           
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='Basketball' team1='ECE' team2='ME' time='10:00 am' />
           </div>
           
@@ -46,11 +46,11 @@ const EventPage = () => {
       </h1>
     <div className='event-section container-fluid'>
         <div className='row'>
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='Futsal' team1='CSE' team2='IP' time='12:00 pm' />
           </div>
           
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='Tennis' team1='ECE' team2='CE' time='3:00 pm' />
           </div>
           
@@ -63,11 +63,11 @@ const EventPage = () => {
       </h1>
     <div className='event-section container-fluid'>
         <div className='row'>
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='Volleyball' team1='IT' team2='CE' time='4:00 pm' />
           </div>
           
-          <div className='col-6-md col-6-xl col-6-lg game'>
+          <div className='col-lg-6 col-xl-6 col-md-6 game'>
       <EventCard sport='KhoKho' team1='IP' team2='ME' time='1:00 pm' />
           </div>
           

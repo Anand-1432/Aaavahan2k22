@@ -53,9 +53,11 @@ const Footer = () => {
               <ul class='card-text'>
                 <li><Link to='/2k19'>History</Link></li>
                 <li>
-                <Link to="/2k19">Past Sponsors</Link>
+                <a href="/2k19/#PastSponsors">Past Sponsors</a>
                 </li>
-                <li>Past Mentors</li>
+                <li>
+                <a href="/2k19/#dj">Dj Night</a>
+                </li>
                 
               </ul>
             </div>
