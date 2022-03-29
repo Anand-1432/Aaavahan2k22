@@ -15,6 +15,7 @@ import Silder2 from '../../components/slider2/Silder2';
 const Home = () => {
     return (
         <>
+            <div id='Home'></div>
             <img src={Homebg} alt="" id='Rbg' />
             <img src={bgmain} alt="" id='Rbg2' />
             <div className='RaagDiv container-fluid'>
@@ -37,6 +38,7 @@ const Home = () => {
                 name="Our Sponsors"
             /> */}
 
+           <div id='Sponsors'></div>
             <Silder2
                 name="Our Sponsors"
             />
@@ -62,7 +64,8 @@ const Home = () => {
             <Slider
                 name="Our Mentors"
             />
-
+           
+            <div id='Contact'></div>
             <Footer />
         </>
     )

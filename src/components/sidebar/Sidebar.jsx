@@ -44,22 +44,22 @@ const Sidebar = () => {
 
          <div className='main'>
             <div className="side">
-                <p> <Link className='link' to="/"> <HomeIcon /> </Link></p>
+                <p> <a className='link' href="/#Home"> <HomeIcon /> </a></p>
                 <p> <a className='link' href='/#About'> <InfoIcon /> </a></p>
                 <p> <Link className='link' to='/events'> <GroupsIcon /> </Link></p>
                 <p> <Link className='link' to='/2k19'> <EmojiEventsIcon /> </Link></p>
-                <p> <a className='link' href='/#Sponsorships'> <BeenhereIcon /> </a></p>
-                <p> <a className='link' href='mailto:gaikwadanandrao2@gmail.com' target='1' > <ContactPhoneIcon /> </a></p>
+                <p> <a className='link' href='/#Sponsors'> <BeenhereIcon /> </a></p>
+                <p> <a className='link' href='/#Contact' target='1' > <ContactPhoneIcon /> </a></p>
             </div>
 
             <div className="sidebar" id="c">
                 <div className="barlink">
-                    <p> <Link className='link' to="/"> Home </Link></p>
+                    <p> <a className='link' href="/#Home"> Home </a></p>
                     <p> <a className='link' href='/#About'> About </a></p>
                     <p> <Link className='link' to='/events'> Events </Link></p>
                     <p> <Link className='link' to='/2k19'> 2k19 </Link></p>
-                    <p> <a className='link' href='/#Sponsorships'> Sponsorships</a></p>
-                    <p> <a className='link' href='mailto:gaikwadanandrao2@gmail.com'> Contact </a></p>
+                    <p> <a className='link' href='/#Sponsors'> Sponsorships</a></p>
+                    <p> <a className='link' href='/#Contact'> Contact </a></p>
                 </div>
             </div>
           </div>

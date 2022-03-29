@@ -40,17 +40,23 @@ const Footer = () => {
                 <li>
                   <Link to='/events'>Events</Link>
                 </li>
-                <li>Shedule</li>
-                <li>Sponsors</li>
+                <li>
+                <Link to="/rules">Rules</Link>
+                </li>
+                <li>
+               <a href="/#Sponsors">Sponsors</a> 
+                </li>
               </ul>
             </div>
             <div class='col-md-3 col-sm-3 col-xs-3'>
               <h5 class='heading'>Aavahan 2019</h5>
               <ul class='card-text'>
-                <li>Past Events</li>
-                <li>Past Sponsors</li>
+                <li><Link to='/2k19'>History</Link></li>
+                <li>
+                <Link to="/2k19">Past Sponsors</Link>
+                </li>
                 <li>Past Mentors</li>
-                <li>History</li>
+                
               </ul>
             </div>
           </div>

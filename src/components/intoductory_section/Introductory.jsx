@@ -16,7 +16,7 @@ const Introductory = () => {
     console.log(isOnScreen());
     if (isOnScreen()) {
       setTimeout(() => {
-        if (participantCnt !== 50) setParticipantCnt(participantCnt + 1);
+        if (participantCnt !== 500) setParticipantCnt(participantCnt + 5);
         else if (sponsorCnt !== 20) setSponsorCnt(sponsorCnt + 1);
         else if (gameCnt !== 8) setGameCnt(gameCnt + 1);
         else if (dayCnt !== 4) setDayCnt(dayCnt + 1);

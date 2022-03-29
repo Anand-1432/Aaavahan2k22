@@ -15,7 +15,7 @@ import Footer from '../../components/footer/Footer';
 const Aavahan2k19 = () => {
   return (
     <>
-
+      <div id='History'></div>
       <img src={img0} alt="" id='Rbg' />
       <img src={bgmain} alt="" id='Rbg2' />
 
@@ -47,10 +47,24 @@ const Aavahan2k19 = () => {
         </div>
       </div>
 
+      <div id='PastSpon'></div>
       <Silder2
         name="Past Sponsors"
       />
 
+    
+    <h1 id='dj'>Dj Night</h1>
+      <div className='EventVideo'>
+        <iframe
+          width='480'
+          height='300'
+          src='https://www.youtube.com/embed/_AQdXkTwp64'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowfullscreen
+        ></iframe>
+      </div>
 
       <Footer />
 
