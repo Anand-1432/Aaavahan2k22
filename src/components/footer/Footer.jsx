@@ -28,7 +28,7 @@ const Footer = () => {
                                  <a className='fa' href="https://www.linkedin.com/in/aavahaan-jec-7231a1235/" target="1"><i class=" fa fa-brands fa-linkedin"></i></a>
                                   <a className='fa' href="https://www.instagram.com/aavahan_2k22/" target='1'><Insta /></a> 
                                   <Link className="fa" to='/'><WhatsApp /></Link> 
-                                  <a className="fa" href='mailto:gaikwadanandrao2@gmail.com'><Mail /></a> </div>
+                                  <a className="fa" href='mailto:jecaavahan2k22@gmail.com'><Mail /></a> </div>
 
                             </div>
                         </div>
